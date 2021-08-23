@@ -22,7 +22,7 @@
 	<!-- Shouts -->
 	
 	<bean id="shout01" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/08/15 19:39"/>
+		<property name="moment" value="2021/09/15 19:39"/>
 		<property name="author" value="John Doe"/>
 		<property name="text" value="I'm happy!"/>
 		<property name="info"><null/></property>	
@@ -50,7 +50,7 @@
 	</bean>
 	
 	<bean id="shout05" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/08/13 10:39"/>
+		<property name="moment" value="2021/09/13 10:39"/>
 		<property name="author" value="Pepe Gotera"/>
 		<property name="text" value="¡Ha quedado niquelado!"/>
 		<property name="info"><null/></property>	
