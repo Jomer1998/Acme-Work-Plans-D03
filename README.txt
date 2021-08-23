@@ -16,13 +16,21 @@ projects.
 This is Acme Work-Plans, the second project of Group 10 for Design & Testing 2 subject
 (September evaluation).
 
-* GitHub repository: https://github.com/Jomer1998/Acme-Work-Plans-D02
-* GitHub release: https://github.com/Jomer1998/Acme-Work-Plans-D02/releases/tag/v1.0
+* GitHub repository: https://github.com/Jomer1998/Acme-Work-Plans-D03
+* GitHub release: https://github.com/Jomer1998/Acme-Work-Plans-D03/releases/tag/v1.1
 
 * Apunte sobre Clever Cloud: debido a un error, en la aplicación desplegada las URLs que contienen
 "/manager" provocan errores. Para solucionarlo, se modifica el campo 'context' del war.json
 y para probar la aplicación desplegada habrá que añadir a la URL que proporciona Clever Cloud
 lo siguiente: "/Acme-Planner".
+
+* Interpretaciones y consideraciones referentes al tercer entregable:
+	- Se ha modificado el valor del atributo moment en los shouts "shout01" y "shout05" en el
+	sample-data.xml, con el fin de evitar errores en el test de listar shouts en el momento
+	de corregir este entregable.
+	
+	- En casos como los listados o los shows (como por ejemplo el de Dashboard), no se han implementado casos negativos
+	en los tests porque no es posible realizarlos.
 
 * Interpretaciones y consideraciones referentes al segundo entregable:
 	- La funcionalidad de hacerse manager no está implementada porque no se pide como requisito.
